@@ -1,0 +1,283 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+pat_ix=13Processing patient 151627..
+Processing patient 151627
+Processing directory: 151627
+>Skin : 151627_skin.stl : 0.4650 : FreeSpace
+>Skull : 151627_skull.stl : 0.010 : Skin
+>CSF : 151627_csf.stl : 1.654 : Skull
+>GM : 151627_gm.stl : 0.2750 : CSF
+>Cerebellum : 151627_cerebellum.stl : 0.126 : CSF
+>WM : 151627_wm.stl : 0.1260 : GM
+>Ventricles : 151627_ventricles.stl : 1.654 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/151627/mesh_data/151627_skin.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_skull.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_csf.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_gm.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_cerebellum.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_wm.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_ventricles.stl]
+
+LoadBaseDataTime =
+
+   23.0323
+
+
+SurfaceNormalTime =
+
+    1.5526
+
+
+InitialConductivityAssignmentTime =
+
+    0.0231
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.2085
+
+
+ProcessBaseDataTime =
+
+    6.5926
+
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 12 workers.
+
+Started parallel pool in 32.6489 s
+
+Integral evaluation time = 5.5449 s
+
+Correction matrix construction time = 2.0953 s
+
+Integral evaluation time = 16.9161 s
+
+Correction matrix construction time = 0.43729 s
+
+SaveBigDataTime =
+
+    9.2129
+
+BEM-FMM model created!
+Finished processing 151627! The total elapsed time is: 9.249084e+00
+Processing patient 151627
+Processing directory: 151627
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 151627_skin.stl : 0.4650 : FreeSpace
+>Skull : 151627_skull.stl : 0.010 : Skin
+>CSF : 151627_csf.stl : 1.654 : Skull
+>GM : 151627_gm.stl : 0.2750 : CSF
+>Cerebellum : 151627_cerebellum.stl : 0.126 : CSF
+>WM : 151627_wm.stl : 0.1260 : GM
+>Ventricles : 151627_ventricles.stl : 1.654 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/151627/mesh_data/151627_skin.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_skull.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_csf.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_gm.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_cerebellum.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_wm.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_ventricles.stl]
+
+LoadBaseDataTime =
+
+    2.0368
+
+
+SurfaceNormalTime =
+
+    1.6278
+
+
+InitialConductivityAssignmentTime =
+
+    0.0220
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.1178
+
+
+ProcessBaseDataTime =
+
+    4.4635
+
+
+Integral evaluation time = 5.0392 s
+
+Correction matrix construction time = 2.0706 s
+
+Integral evaluation time = 16.3724 s
+
+Correction matrix construction time = 0.40715 s
+
+SaveBigDataTime =
+
+    9.1163
+
+BEM-FMM model created!
+Finished processing 151627! The total elapsed time is: 9.125736e+00
+Processing patient 151627
+Processing directory: 151627
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 151627_skin.stl : 0.4650 : FreeSpace
+>Skull : 151627_skull.stl : 0.010 : Skin
+>CSF : 151627_csf.stl : 1.654 : Skull
+>GM : 151627_gm.stl : 0.2750 : CSF
+>Cerebellum : 151627_cerebellum.stl : 0.126 : CSF
+>WM : 151627_wm.stl : 0.1260 : GM
+>Ventricles : 151627_ventricles.stl : 1.654 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/151627/mesh_data/151627_skin.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_skull.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_csf.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_gm.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_cerebellum.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_wm.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_ventricles.stl]
+
+LoadBaseDataTime =
+
+    2.0400
+
+
+SurfaceNormalTime =
+
+    1.5737
+
+
+InitialConductivityAssignmentTime =
+
+    0.0189
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.1027
+
+
+ProcessBaseDataTime =
+
+    4.6137
+
+
+Integral evaluation time = 5.0283 s
+
+Correction matrix construction time = 2.0311 s
+
+Integral evaluation time = 16.1925 s
+
+Correction matrix construction time = 0.40425 s
+
+SaveBigDataTime =
+
+    9.4985
+
+BEM-FMM model created!
+Finished processing 151627! The total elapsed time is: 9.507478e+00
+Processing patient 151627
+Processing directory: 151627
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 151627_skin.stl : 0.4650 : FreeSpace
+>Skull : 151627_skull.stl : 0.010 : Skin
+>CSF : 151627_csf.stl : 1.654 : Skull
+>GM : 151627_gm.stl : 0.2750 : CSF
+>Cerebellum : 151627_cerebellum.stl : 0.126 : CSF
+>WM : 151627_wm.stl : 0.1260 : GM
+>Ventricles : 151627_ventricles.stl : 1.654 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/151627/mesh_data/151627_skin.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_skull.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_csf.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_gm.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_cerebellum.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_wm.stl]
+Successfully loaded file [../data/patients/151627/mesh_data/151627_ventricles.stl]
+
+LoadBaseDataTime =
+
+    1.9962
+
+
+SurfaceNormalTime =
+
+    1.5658
+
+
+InitialConductivityAssignmentTime =
+
+    0.0182
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.0729
+
+
+ProcessBaseDataTime =
+
+    4.5504
+
+
+Integral evaluation time = 5.0457 s
+
+Correction matrix construction time = 2.0824 s
+
+Integral evaluation time = 16.4911 s
+
+Correction matrix construction time = 0.41115 s
+
+SaveBigDataTime =
+
+    8.9462
+
+BEM-FMM model created!
+Finished processing 151627! The total elapsed time is: 8.953572e+00
+Parallel pool using the 'Processes' profile is shutting down.

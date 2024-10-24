@@ -1,0 +1,11 @@
+% See Frontiers in Neuroscience : Influence of Head Tissue Conductivity Uncertainties of EEG Dipole Reconstruction
+% Use Table 3.
+% For the cerebellum we averaged the GM and WM conductivities (by 40%-60%)
+
+> Skin : skin : 0.430 : FreeSpace
+> Skull : skull : 0.010 : Skin
+> CSF : csf : 1.790 : Skull
+> GM : gm : 0.330 : CSF
+> WM : wm : 0.140 : GM
+> Cerebellum : cerebellum : 0.216 : CSF
+> Ventricles : ventricles : 1.790 : WM

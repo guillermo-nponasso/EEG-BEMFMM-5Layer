@@ -1,0 +1,90 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+pat_cell =
+
+  1x15 cell array
+
+  Columns 1 through 5
+
+    {'110411'}    {'117122'}    {'120111'}    {'122317'}    {'122620'}
+
+  Columns 6 through 10
+
+    {'124422'}    {'128632'}    {'130013'}    {'131722'}    {'138534'}
+
+  Columns 11 through 15
+
+    {'149337'}    {'149539'}    {'151627'}    {'160123'}    {'198451'}
+
+pat_ix=10Processing directory: 138534
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_ft_model (line 16)] 
+>Skin : 138534_skin_remesh.stl : 0.430 : FreeSpace
+>Skull : 138534_skull_remesh.stl : 0.010 : Skin
+>Brain : 138534_csf_remesh.stl : 0.3300 : Skull
+-------------------------------------------------------------------------------------------
+FieldTrip is developed by members and collaborators of the Donders Institute for Brain,
+Cognition and Behaviour at Radboud University, Nijmegen, the Netherlands.
+
+                          --------------------------
+                        /                            \
+                     ------------------------------------
+                    /                                    \
+          -------------------------------------------------
+         /                            /\/\/\/\/\ 
+         ---------------------------------------------------
+                  |        F  i  e  l  d  T  r  i  p       |
+                  ------------------------------------------
+                   \                                      /
+                     ------------------------------------
+                          \            /
+                            ----------
+
+Please cite the FieldTrip reference paper when you have used FieldTrip in your study.
+Robert Oostenveld, Pascal Fries, Eric Maris, and Jan-Mathijs Schoffelen. FieldTrip: Open
+Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data.
+Computational Intelligence and Neuroscience, vol. 2011, Article ID 156869, 9 pages, 2011.
+doi:10.1155/2011/156869.
+-------------------------------------------------------------------------------------------
+Reading low-resolution meshes..
+Done!
+Fixing meshes..
+Done!
+the meshes are closed and properly nested
+Nvert = 7002
+Ntri = 14000
+weight = 0.149793 , defl =  0.000000 
+Nverta = 7002
+Ntrib = 14000
+Nverta = 7002
+Ntrib = 14000
+Nvert = 7002
+Ntri = 14000
+weight = -0.151921 , defl =  0.000000 
+Nverta = 7002
+Ntrib = 14000
+Nverta = 7002
+Ntrib = 14000
+Nverta = 7002
+Ntrib = 14000
+Nverta = 7002
+Ntrib = 14000
+Nvert = 7002
+Ntri = 14000
+weight = 0.159155 , defl =  0.000143 
+the call to "ft_prepare_headmodel" took 147 seconds and required the additional allocation of an estimated 1365 MB
+Done!
+Saving head model..
+Done!

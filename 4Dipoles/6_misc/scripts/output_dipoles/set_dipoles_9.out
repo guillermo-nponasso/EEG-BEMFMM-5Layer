@@ -1,0 +1,303 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+pat_ix=9Processing patient 131722..
+Processing patient 131722
+Processing directory: 131722
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In set_dipoles (line 48)] 
+>Skin : 131722_skin.stl : 0.430 : FreeSpace
+>Skull : 131722_skull.stl : 0.010 : Skin
+>CSF : 131722_csf.stl : 1.790 : Skull
+>GM : 131722_gm.stl : 0.330 : CSF
+>WM : 131722_wm.stl : 0.140 : GM
+>Cerebellum : 131722_cerebellum.stl : 0.216 : CSF
+>Ventricles : 131722_ventricles.stl : 1.790 : WM
+Creating BEM-FMM model..
+
+LoadTime =
+
+    5.1464
+
+BEM-FMM model created!
+Placing source dipole..
+Processing dipole position ../data/patients/131722/dipoles/dip1.txt..
+The dipole is located in the position: (-4.526000e-02, -2.449000e-02, 2.872000e-02) (m)
+
+NIFTILoadTime =
+
+    0.5832
+
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d3_inspectXY (line 6)
+In run (line 91)
+In set_dipoles (line 63)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d3_inspectXY_zoom (line 6)
+In run (line 91)
+In set_dipoles (line 64)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d4_inspectYZ (line 5)
+In run (line 91)
+In set_dipoles (line 65)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d4_inspectYZ_zoom (line 5)
+In run (line 91)
+In set_dipoles (line 66)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d5_inspectXZ (line 6)
+In run (line 91)
+In set_dipoles (line 67)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d5_inspectXZ_zoom (line 6)
+In run (line 91)
+In set_dipoles (line 68)] 
+Done!
+Finished processing 131722! The total elapsed time is: 3.776873e+00
+Processing patient 131722
+Processing directory: 131722
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In set_dipoles (line 48)] 
+>Skin : 131722_skin.stl : 0.430 : FreeSpace
+>Skull : 131722_skull.stl : 0.010 : Skin
+>CSF : 131722_csf.stl : 1.790 : Skull
+>GM : 131722_gm.stl : 0.330 : CSF
+>WM : 131722_wm.stl : 0.140 : GM
+>Cerebellum : 131722_cerebellum.stl : 0.216 : CSF
+>Ventricles : 131722_ventricles.stl : 1.790 : WM
+Creating BEM-FMM model..
+
+LoadTime =
+
+    2.0674
+
+BEM-FMM model created!
+Placing source dipole..
+Processing dipole position ../data/patients/131722/dipoles/dip2.txt..
+The dipole is located in the position: (-2.269000e-02, 0, 5.587000e-02) (m)
+
+NIFTILoadTime =
+
+    0.2037
+
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d3_inspectXY (line 6)
+In run (line 91)
+In set_dipoles (line 63)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d3_inspectXY_zoom (line 6)
+In run (line 91)
+In set_dipoles (line 64)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d4_inspectYZ (line 5)
+In run (line 91)
+In set_dipoles (line 65)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d4_inspectYZ_zoom (line 5)
+In run (line 91)
+In set_dipoles (line 66)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d5_inspectXZ (line 6)
+In run (line 91)
+In set_dipoles (line 67)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d5_inspectXZ_zoom (line 6)
+In run (line 91)
+In set_dipoles (line 68)] 
+Done!
+Finished processing 131722! The total elapsed time is: 2.298560e+00
+Processing patient 131722
+Processing directory: 131722
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In set_dipoles (line 48)] 
+>Skin : 131722_skin.stl : 0.430 : FreeSpace
+>Skull : 131722_skull.stl : 0.010 : Skin
+>CSF : 131722_csf.stl : 1.790 : Skull
+>GM : 131722_gm.stl : 0.330 : CSF
+>WM : 131722_wm.stl : 0.140 : GM
+>Cerebellum : 131722_cerebellum.stl : 0.216 : CSF
+>Ventricles : 131722_ventricles.stl : 1.790 : WM
+Creating BEM-FMM model..
+
+LoadTime =
+
+    1.9794
+
+BEM-FMM model created!
+Placing source dipole..
+Processing dipole position ../data/patients/131722/dipoles/dip3.txt..
+The dipole is located in the position: (-4.664000e-02, 1.400000e-03, -1.159000e-02) (m)
+
+NIFTILoadTime =
+
+    0.1866
+
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d3_inspectXY (line 6)
+In run (line 91)
+In set_dipoles (line 63)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d3_inspectXY_zoom (line 6)
+In run (line 91)
+In set_dipoles (line 64)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d4_inspectYZ (line 5)
+In run (line 91)
+In set_dipoles (line 65)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d4_inspectYZ_zoom (line 5)
+In run (line 91)
+In set_dipoles (line 66)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d5_inspectXZ (line 6)
+In run (line 91)
+In set_dipoles (line 67)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d5_inspectXZ_zoom (line 6)
+In run (line 91)
+In set_dipoles (line 68)] 
+Done!
+Finished processing 131722! The total elapsed time is: 2.406979e+00
+Processing patient 131722
+Processing directory: 131722
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In set_dipoles (line 48)] 
+>Skin : 131722_skin.stl : 0.430 : FreeSpace
+>Skull : 131722_skull.stl : 0.010 : Skin
+>CSF : 131722_csf.stl : 1.790 : Skull
+>GM : 131722_gm.stl : 0.330 : CSF
+>WM : 131722_wm.stl : 0.140 : GM
+>Cerebellum : 131722_cerebellum.stl : 0.216 : CSF
+>Ventricles : 131722_ventricles.stl : 1.790 : WM
+Creating BEM-FMM model..
+
+LoadTime =
+
+    1.9557
+
+BEM-FMM model created!
+Placing source dipole..
+Processing dipole position ../data/patients/131722/dipoles/dip4.txt..
+The dipole is located in the position: (-2.775000e-02, -1.240000e-03, -3.829000e-02) (m)
+
+NIFTILoadTime =
+
+    0.1567
+
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d3_inspectXY (line 6)
+In run (line 91)
+In set_dipoles (line 63)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d3_inspectXY_zoom (line 6)
+In run (line 91)
+In set_dipoles (line 64)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d4_inspectYZ (line 5)
+In run (line 91)
+In set_dipoles (line 65)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d4_inspectYZ_zoom (line 5)
+In run (line 91)
+In set_dipoles (line 66)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d5_inspectXZ (line 6)
+In run (line 91)
+In set_dipoles (line 67)] 
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2a_setup_dipoles/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In d5_inspectXZ_zoom (line 6)
+In run (line 91)
+In set_dipoles (line 68)] 
+Done!
+Finished processing 131722! The total elapsed time is: 2.430531e+00

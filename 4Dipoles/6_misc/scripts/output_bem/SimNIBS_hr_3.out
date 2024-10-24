@@ -1,0 +1,67 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+pat_ix=3Processing patient 120111..
+Processing patient 120111
+Processing directory: 120111
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 120111_skin_headreco.stl : 0.4650 : FreeSpace
+>Skull : 120111_bone_headreco.stl : 0.010 : Skin
+>CSF : 120111_csf_headreco.stl : 1.654 : Skull
+>GM : 120111_gm_headreco.stl : 0.2750 : CSF
+>WM : 120111_wm_headreco.stl : 0.1260 : GM
+>Eyes : 120111_eyes_headreco.stl : 1.654 : Skin
+>Ventricles : 120111_ventricles_headreco.stl : 1.654 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/120111/mesh_data/120111_skin_headreco.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_bone_headreco.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_csf_headreco.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_gm_headreco.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_wm_headreco.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_eyes_headreco.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_ventricles_headreco.stl]
+
+LoadBaseDataTime =
+
+    3.0491
+
+
+SurfaceNormalTime =
+
+    1.8541
+
+
+InitialConductivityAssignmentTime =
+
+    0.0275
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.3834
+
+
+ProcessBaseDataTime =
+
+    5.9872
+
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Parallel pool using the 'Processes' profile is shutting down.
+

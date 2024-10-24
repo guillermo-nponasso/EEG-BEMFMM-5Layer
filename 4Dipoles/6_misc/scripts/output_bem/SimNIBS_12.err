@@ -1,0 +1,23 @@
+Loading matlab/R2023a
+  Loading requirement: mvapich2/gcc/64/2.2rc1
+{Error using parpool
+Parallel pool failed to start with the following error. For more detailed
+information, validate the profile 'Processes' in the Cluster Profile Manager.
+
+Error in m0_create_meshmodel (line 155)
+    parpool(numThreads);
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+
+Error in create_BEM_model (line 52)
+    run('m0_create_meshmodel.m');
+
+Caused by:
+    Error using
+    parallel.internal.pool.AbstractInteractiveClient>iThrowWithCause
+    Failed to initialize the interactive session.
+        Error using
+        parallel.internal.pool.AbstractInteractiveClient>iThrowIfBadParallelJobStatus
+                The interactive communicating job failed with no message.
+} 

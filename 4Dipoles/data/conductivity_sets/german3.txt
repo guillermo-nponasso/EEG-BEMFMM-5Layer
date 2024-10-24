@@ -1,0 +1,6 @@
+% See Frontiers in Neuroscience : Influence of Head Tissue Conductivity Uncertainties of EEG Dipole Reconstruction
+% BRAIN is taken to have the conductivity of Grey mater
+
+> Skin : skin_remesh : 0.430: FreeSpace
+> Skull : skull_remesh : 0.010 : Skin
+> Brain : csf_remesh : 0.3300 : Skull

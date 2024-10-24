@@ -1,0 +1,11 @@
+% ITIS SWISS Conductivity values
+% See https://itis.swiss/virtual-population/tissue-properties/database/low-frequency-conductivity/
+% For eyes used the conductivity values of aquous humour
+
+> Skin : skin_headreco : 0.147 : FreeSpace
+> Skull : bone_headreco : 0.0179 : Skin
+> CSF : csf_headreco : 1.88 : Skull
+> GM : gm_headreco : 0.419 : CSF
+> WM : wm_headreco : 0.348 : GM
+> Eyes: eyes_headreco: 1.88 : Skin
+> Ventricles : ventricles_headreco : 1.88 : WM

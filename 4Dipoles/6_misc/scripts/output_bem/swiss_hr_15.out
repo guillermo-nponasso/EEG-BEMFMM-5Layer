@@ -1,0 +1,288 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+pat_ix=15Processing patient 198451..
+Processing patient 198451
+Processing directory: 198451
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 198451_skin_headreco.stl : 0.147 : FreeSpace
+>Skull : 198451_bone_headreco.stl : 0.0179 : Skin
+>CSF : 198451_csf_headreco.stl : 1.88 : Skull
+>GM : 198451_gm_headreco.stl : 0.419 : CSF
+>WM : 198451_wm_headreco.stl : 0.348 : GM
+>Eyes : 198451_eyes_headreco.stl : 1.88 : Skin
+>Ventricles : 198451_ventricles_headreco.stl : 1.88 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/198451/mesh_data/198451_skin_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_bone_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_csf_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_gm_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_wm_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_eyes_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_ventricles_headreco.stl]
+
+LoadBaseDataTime =
+
+    4.8777
+
+
+SurfaceNormalTime =
+
+    4.3780
+
+
+InitialConductivityAssignmentTime =
+
+    0.0470
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    2.3793
+
+
+ProcessBaseDataTime =
+
+    9.1827
+
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Connected to parallel pool with 12 workers.
+
+Started parallel pool in 33.7323 s
+
+Integral evaluation time = 20.0517 s
+
+Correction matrix construction time = 6.2649 s
+
+Integral evaluation time = 50.011 s
+
+Correction matrix construction time = 0.99224 s
+
+SaveBigDataTime =
+
+   18.0225
+
+BEM-FMM model created!
+Finished processing 198451! The total elapsed time is: 1.810719e+01
+Processing patient 198451
+Processing directory: 198451
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 198451_skin_headreco.stl : 0.147 : FreeSpace
+>Skull : 198451_bone_headreco.stl : 0.0179 : Skin
+>CSF : 198451_csf_headreco.stl : 1.88 : Skull
+>GM : 198451_gm_headreco.stl : 0.419 : CSF
+>WM : 198451_wm_headreco.stl : 0.348 : GM
+>Eyes : 198451_eyes_headreco.stl : 1.88 : Skin
+>Ventricles : 198451_ventricles_headreco.stl : 1.88 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/198451/mesh_data/198451_skin_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_bone_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_csf_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_gm_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_wm_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_eyes_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_ventricles_headreco.stl]
+
+LoadBaseDataTime =
+
+    2.3163
+
+
+SurfaceNormalTime =
+
+    4.2477
+
+
+InitialConductivityAssignmentTime =
+
+    0.0476
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    2.1162
+
+
+ProcessBaseDataTime =
+
+    9.7438
+
+
+Integral evaluation time = 19.6018 s
+
+Correction matrix construction time = 6.1049 s
+
+Integral evaluation time = 47.6572 s
+
+Correction matrix construction time = 1.0164 s
+
+SaveBigDataTime =
+
+   18.3922
+
+BEM-FMM model created!
+Finished processing 198451! The total elapsed time is: 1.841256e+01
+Processing patient 198451
+Processing directory: 198451
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 198451_skin_headreco.stl : 0.147 : FreeSpace
+>Skull : 198451_bone_headreco.stl : 0.0179 : Skin
+>CSF : 198451_csf_headreco.stl : 1.88 : Skull
+>GM : 198451_gm_headreco.stl : 0.419 : CSF
+>WM : 198451_wm_headreco.stl : 0.348 : GM
+>Eyes : 198451_eyes_headreco.stl : 1.88 : Skin
+>Ventricles : 198451_ventricles_headreco.stl : 1.88 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/198451/mesh_data/198451_skin_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_bone_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_csf_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_gm_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_wm_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_eyes_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_ventricles_headreco.stl]
+
+LoadBaseDataTime =
+
+    2.2921
+
+
+SurfaceNormalTime =
+
+    4.2595
+
+
+InitialConductivityAssignmentTime =
+
+    0.0419
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    2.1392
+
+
+ProcessBaseDataTime =
+
+   10.0677
+
+
+Integral evaluation time = 19.5087 s
+
+Correction matrix construction time = 6.1462 s
+
+Integral evaluation time = 48.3101 s
+
+Correction matrix construction time = 1.017 s
+
+SaveBigDataTime =
+
+   17.6401
+
+BEM-FMM model created!
+Finished processing 198451! The total elapsed time is: 1.765998e+01
+Processing patient 198451
+Processing directory: 198451
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 198451_skin_headreco.stl : 0.147 : FreeSpace
+>Skull : 198451_bone_headreco.stl : 0.0179 : Skin
+>CSF : 198451_csf_headreco.stl : 1.88 : Skull
+>GM : 198451_gm_headreco.stl : 0.419 : CSF
+>WM : 198451_wm_headreco.stl : 0.348 : GM
+>Eyes : 198451_eyes_headreco.stl : 1.88 : Skin
+>Ventricles : 198451_ventricles_headreco.stl : 1.88 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/198451/mesh_data/198451_skin_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_bone_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_csf_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_gm_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_wm_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_eyes_headreco.stl]
+Successfully loaded file [../data/patients/198451/mesh_data/198451_ventricles_headreco.stl]
+
+LoadBaseDataTime =
+
+    2.3460
+
+
+SurfaceNormalTime =
+
+    6.4283
+
+
+InitialConductivityAssignmentTime =
+
+    0.0452
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    2.4449
+
+
+ProcessBaseDataTime =
+
+    9.8181
+
+
+Integral evaluation time = 19.2658 s
+
+Correction matrix construction time = 6.2643 s
+
+Integral evaluation time = 48.4138 s
+
+Correction matrix construction time = 1.0292 s
+
+SaveBigDataTime =
+
+   17.7255
+
+BEM-FMM model created!
+Finished processing 198451! The total elapsed time is: 1.774518e+01
+Parallel pool using the 'Processes' profile is shutting down.

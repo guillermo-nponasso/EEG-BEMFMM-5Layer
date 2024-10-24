@@ -1,0 +1,62 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+pat_ix=12Processing patient 149539..
+Processing patient 149539
+Processing directory: 149539
+>Skin : 149539_skin.stl : 0.4650 : FreeSpace
+>Skull : 149539_skull.stl : 0.010 : Skin
+>CSF : 149539_csf.stl : 1.654 : Skull
+>GM : 149539_gm.stl : 0.2750 : CSF
+>Cerebellum : 149539_cerebellum.stl : 0.126 : CSF
+>WM : 149539_wm.stl : 0.1260 : GM
+>Ventricles : 149539_ventricles.stl : 1.654 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/149539/mesh_data/149539_skin.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_skull.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_csf.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_gm.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_cerebellum.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_wm.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_ventricles.stl]
+
+LoadBaseDataTime =
+
+   23.0037
+
+
+SurfaceNormalTime =
+
+    1.5356
+
+
+InitialConductivityAssignmentTime =
+
+    0.0244
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.2035
+
+
+ProcessBaseDataTime =
+
+    6.5824
+
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Parallel pool using the 'Processes' profile is shutting down.
+

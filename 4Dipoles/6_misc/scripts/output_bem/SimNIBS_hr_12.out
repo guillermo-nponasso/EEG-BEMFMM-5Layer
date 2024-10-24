@@ -1,0 +1,88 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+pat_ix=12Processing patient 149539..
+Processing patient 149539
+Processing directory: 149539
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 149539_skin_headreco.stl : 0.4650 : FreeSpace
+>Skull : 149539_bone_headreco.stl : 0.010 : Skin
+>CSF : 149539_csf_headreco.stl : 1.654 : Skull
+>GM : 149539_gm_headreco.stl : 0.2750 : CSF
+>WM : 149539_wm_headreco.stl : 0.1260 : GM
+>Eyes : 149539_eyes_headreco.stl : 1.654 : Skin
+>Ventricles : 149539_ventricles_headreco.stl : 1.654 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/149539/mesh_data/149539_skin_headreco.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_bone_headreco.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_csf_headreco.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_gm_headreco.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_wm_headreco.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_eyes_headreco.stl]
+Successfully loaded file [../data/patients/149539/mesh_data/149539_ventricles_headreco.stl]
+
+LoadBaseDataTime =
+
+    3.1278
+
+
+SurfaceNormalTime =
+
+    1.8353
+
+
+InitialConductivityAssignmentTime =
+
+    0.0266
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.3775
+
+
+ProcessBaseDataTime =
+
+    5.8224
+
+Starting parallel pool (parpool) using the 'Processes' profile ...
+[Warning: The Cluster reported an error while destroying a job. The error was:
+Could not open file "/home/plai/.matlab/local_cluster_jobs/R2023a/Job1.in.mat",
+the error returned was: Unable to find file or directory
+'/home/plai/.matlab/local_cluster_jobs/R2023a/Job1.in.mat'...] 
+[> In parallel.internal.cluster.CJSJobMethods.destroyOneJob (line 79)
+In parallel.job.CJSConcurrentJob>@(job)CJSJobMethods.destroyOneJob(job.Parent,job,job.Support,job.SupportID) (line 52)
+In parallel.job/CJSConcurrentJob/destroyJob (line 52)
+In parallel.Job>iDeleteJobs (line 1634)
+In parallel.internal.cluster.hetfun (line 57)
+In parallel/Job/delete (line 1429)
+In parallel/Cluster/hDeleteOneJob (line 1105)
+In parallel.internal.pool.AbstractInteractiveClient>iDeleteJobs (line 497)
+In parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (line 218)
+In parallel.internal.pool/AbstractInteractiveClient/start (line 104)
+In parallel.internal.pool.AbstractClusterPool>iStartClient (line 874)
+In parallel.internal.pool.AbstractClusterPool.hBuildPool (line 636)
+In parallel.internal.pool.doParpool (line 22)
+In parpool (line 118)
+In m0_create_meshmodel (line 155)
+In run (line 91)
+In create_BEM_model (line 52)] 
+Parallel pool using the 'Processes' profile is shutting down.
+

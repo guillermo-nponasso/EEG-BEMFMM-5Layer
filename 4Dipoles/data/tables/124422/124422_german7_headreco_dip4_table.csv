@@ -1,0 +1,2 @@
+Patient,Model,Dipole,Dist_mm,Angle_deg,Moment,Str_RE,Residual_Variance,Is_Grid,Grid_eq_Source,Total_AMR_steps
+124422,german7_headreco,dip4,4.55965214106015,20.7659447542203,4.51157771347122e-09,0.127894428367806,0.00139286629462299,1,0,0

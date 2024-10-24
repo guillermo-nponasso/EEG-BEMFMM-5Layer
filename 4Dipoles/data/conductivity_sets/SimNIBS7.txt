@@ -1,0 +1,22 @@
+%This file is to be populated with the list of conductivity values between
+% meshes relevant to the current simulation.  Each file is to be specified
+% on its own line using the following rules:
+% The line must begin with '>'.  Lines not beginning with '>' will be ignored.
+% Immediately following the '>', specify the name by which this tissue should be referenced
+% Following the tissue name, add ' : ' followed by the name pattern of the mesh associated
+%  with the tissue
+% Following the filepattern, add ' : ' followed by the conductivity in S/m
+%  associated with the tissue
+% Following the conductivity, add ' : ' followed by the tissue name of the
+%  tissue enclosing the current tissue.  Note that the enclosing tissue's name
+%  must match the tissue name of one other tissue in the file.  For a tissue
+%  enclosed only by free space, use 'FreeSpace' as the enclosing tissue name.
+
+%% SIMNibs 5-shell + Cerebellum + Ventricles conductivity set
+>Skin : skin : 0.4650 : FreeSpace
+>Skull : skull : 0.010 : Skin
+>CSF : csf : 1.654 : Skull
+>GM : gm : 0.2750 : CSF
+>Cerebellum : cerebellum : 0.126 : CSF
+>WM : wm : 0.1260 : GM
+>Ventricles : ventricles : 1.654 : WM

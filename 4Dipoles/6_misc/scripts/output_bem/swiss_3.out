@@ -1,0 +1,327 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+pat_ix=3Processing patient 120111..
+Processing patient 120111
+Processing directory: 120111
+>Skin : 120111_skin.stl : 0.147 : FreeSpace
+>Skull : 120111_skull.stl : 0.0179 : Skin
+>CSF : 120111_csf.stl : 1.88 : Skull
+>GM : 120111_gm.stl : 0.419 : CSF
+>WM : 120111_wm.stl : 0.348 : GM
+>Cerebellum : 120111_cerebellum.stl : 0.577 : CSF
+>Ventricles : 120111_ventricles.stl : 1.88 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/120111/mesh_data/120111_skin.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_skull.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_csf.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_gm.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_wm.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_cerebellum.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_ventricles.stl]
+
+LoadBaseDataTime =
+
+    6.6950
+
+
+SurfaceNormalTime =
+
+    3.3215
+
+
+InitialConductivityAssignmentTime =
+
+    0.0376
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    2.0025
+
+
+ProcessBaseDataTime =
+
+    6.7447
+
+Starting parallel pool (parpool) using the 'Processes' profile ...
+[Warning: The Cluster reported an error while destroying a job. The error was:
+Could not open file
+"/home/rcmcsweeney/.matlab/local_cluster_jobs/R2023a/Job94.in.mat", the error
+returned was: Unable to find file or directory
+'/home/rcmcsweeney/.matlab/local_cluster_jobs/R2023a/Job94.in.mat'...] 
+[> In parallel.internal.cluster.CJSJobMethods.destroyOneJob (line 79)
+In parallel.job.CJSConcurrentJob>@(job)CJSJobMethods.destroyOneJob(job.Parent,job,job.Support,job.SupportID) (line 52)
+In parallel.job/CJSConcurrentJob/destroyJob (line 52)
+In parallel.Job>iDeleteJobs (line 1634)
+In parallel.internal.cluster.hetfun (line 57)
+In parallel/Job/delete (line 1429)
+In parallel/Cluster/hDeleteOneJob (line 1105)
+In parallel.internal.pool.AbstractInteractiveClient>iDeleteJobs (line 497)
+In parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (line 218)
+In parallel.internal.pool/AbstractInteractiveClient/start (line 104)
+In parallel.internal.pool.AbstractClusterPool>iStartClient (line 874)
+In parallel.internal.pool.AbstractClusterPool.hBuildPool (line 636)
+In parallel.internal.pool.doParpool (line 22)
+In parpool (line 118)
+In m0_create_meshmodel (line 155)
+In run (line 91)
+In create_BEM_model (line 52)] 
+[Warning: The Cluster reported an error while destroying a job. The error was:
+Could not open file
+"/home/rcmcsweeney/.matlab/local_cluster_jobs/R2023a/Job95.in.mat", the error
+returned was: Unable to find file or directory
+'/home/rcmcsweeney/.matlab/local_cluster_jobs/R2023a/Job95.in.mat'...] 
+[> In parallel.internal.cluster.CJSJobMethods.destroyOneJob (line 79)
+In parallel.job.CJSConcurrentJob>@(job)CJSJobMethods.destroyOneJob(job.Parent,job,job.Support,job.SupportID) (line 52)
+In parallel.job/CJSConcurrentJob/destroyJob (line 52)
+In parallel.Job>iDeleteJobs (line 1634)
+In parallel.internal.cluster.hetfun (line 57)
+In parallel/Job/delete (line 1429)
+In parallel/Cluster/hDeleteOneJob (line 1105)
+In parallel.internal.pool.AbstractInteractiveClient>iDeleteJobs (line 497)
+In parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (line 218)
+In parallel.internal.pool/AbstractInteractiveClient/start (line 104)
+In parallel.internal.pool.AbstractClusterPool>iStartClient (line 874)
+In parallel.internal.pool.AbstractClusterPool.hBuildPool (line 636)
+In parallel.internal.pool.doParpool (line 22)
+In parpool (line 118)
+In m0_create_meshmodel (line 155)
+In run (line 91)
+In create_BEM_model (line 52)] 
+Connected to parallel pool with 12 workers.
+
+Started parallel pool in 43.7933 s
+
+Integral evaluation time = 15.9713 s
+
+Correction matrix construction time = 4.8114 s
+
+Integral evaluation time = 41.1753 s
+
+Correction matrix construction time = 0.78257 s
+
+SaveBigDataTime =
+
+   13.9980
+
+BEM-FMM model created!
+Finished processing 120111! The total elapsed time is: 1.409060e+01
+Processing patient 120111
+Processing directory: 120111
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 120111_skin.stl : 0.147 : FreeSpace
+>Skull : 120111_skull.stl : 0.0179 : Skin
+>CSF : 120111_csf.stl : 1.88 : Skull
+>GM : 120111_gm.stl : 0.419 : CSF
+>WM : 120111_wm.stl : 0.348 : GM
+>Cerebellum : 120111_cerebellum.stl : 0.577 : CSF
+>Ventricles : 120111_ventricles.stl : 1.88 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/120111/mesh_data/120111_skin.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_skull.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_csf.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_gm.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_wm.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_cerebellum.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_ventricles.stl]
+
+LoadBaseDataTime =
+
+    4.0389
+
+
+SurfaceNormalTime =
+
+    3.3891
+
+
+InitialConductivityAssignmentTime =
+
+    0.0407
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.7626
+
+
+ProcessBaseDataTime =
+
+    6.8591
+
+
+Integral evaluation time = 14.3932 s
+
+Correction matrix construction time = 4.7786 s
+
+Integral evaluation time = 37.7317 s
+
+Correction matrix construction time = 0.78978 s
+
+SaveBigDataTime =
+
+   13.6498
+
+BEM-FMM model created!
+Finished processing 120111! The total elapsed time is: 1.367051e+01
+Processing patient 120111
+Processing directory: 120111
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 120111_skin.stl : 0.147 : FreeSpace
+>Skull : 120111_skull.stl : 0.0179 : Skin
+>CSF : 120111_csf.stl : 1.88 : Skull
+>GM : 120111_gm.stl : 0.419 : CSF
+>WM : 120111_wm.stl : 0.348 : GM
+>Cerebellum : 120111_cerebellum.stl : 0.577 : CSF
+>Ventricles : 120111_ventricles.stl : 1.88 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/120111/mesh_data/120111_skin.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_skull.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_csf.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_gm.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_wm.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_cerebellum.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_ventricles.stl]
+
+LoadBaseDataTime =
+
+    3.9204
+
+
+SurfaceNormalTime =
+
+    3.3166
+
+
+InitialConductivityAssignmentTime =
+
+    0.0335
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.7084
+
+
+ProcessBaseDataTime =
+
+    6.6912
+
+
+Integral evaluation time = 14.2086 s
+
+Correction matrix construction time = 4.7078 s
+
+Integral evaluation time = 37.2935 s
+
+Correction matrix construction time = 0.77902 s
+
+SaveBigDataTime =
+
+   13.9724
+
+BEM-FMM model created!
+Finished processing 120111! The total elapsed time is: 1.399737e+01
+Processing patient 120111
+Processing directory: 120111
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 120111_skin.stl : 0.147 : FreeSpace
+>Skull : 120111_skull.stl : 0.0179 : Skin
+>CSF : 120111_csf.stl : 1.88 : Skull
+>GM : 120111_gm.stl : 0.419 : CSF
+>WM : 120111_wm.stl : 0.348 : GM
+>Cerebellum : 120111_cerebellum.stl : 0.577 : CSF
+>Ventricles : 120111_ventricles.stl : 1.88 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/120111/mesh_data/120111_skin.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_skull.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_csf.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_gm.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_wm.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_cerebellum.stl]
+Successfully loaded file [../data/patients/120111/mesh_data/120111_ventricles.stl]
+
+LoadBaseDataTime =
+
+    3.9635
+
+
+SurfaceNormalTime =
+
+    3.3047
+
+
+InitialConductivityAssignmentTime =
+
+    0.0336
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.6982
+
+
+ProcessBaseDataTime =
+
+    6.5789
+
+
+Integral evaluation time = 14.445 s
+
+Correction matrix construction time = 4.7535 s
+
+Integral evaluation time = 37.7003 s
+
+Correction matrix construction time = 0.78245 s
+
+SaveBigDataTime =
+
+   13.7972
+
+BEM-FMM model created!
+Finished processing 120111! The total elapsed time is: 1.382088e+01
+Parallel pool using the 'Processes' profile is shutting down.

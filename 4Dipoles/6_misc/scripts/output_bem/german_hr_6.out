@@ -1,0 +1,332 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+pat_ix=6Processing patient 124422..
+Processing patient 124422
+Processing directory: 124422
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 124422_skin_headreco.stl : 0.430 : FreeSpace
+>Skull : 124422_bone_headreco.stl : 0.010 : Skin
+>CSF : 124422_csf_headreco.stl : 1.790 : Skull
+>GM : 124422_gm_headreco.stl : 0.330 : CSF
+>WM : 124422_wm_headreco.stl : 0.140 : GM
+>Eyes : 124422_eyes_headreco.stl : 1.790 : Skin
+>Ventricles : 124422_ventricles_headreco.stl : 1.790 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/124422/mesh_data/124422_skin_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_bone_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_csf_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_gm_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_wm_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_eyes_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_ventricles_headreco.stl]
+
+LoadBaseDataTime =
+
+    1.7113
+
+
+SurfaceNormalTime =
+
+    2.1537
+
+
+InitialConductivityAssignmentTime =
+
+    0.0437
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.6539
+
+
+ProcessBaseDataTime =
+
+    5.8654
+
+Starting parallel pool (parpool) using the 'Processes' profile ...
+[Warning: The Cluster reported an error while destroying a job. The error was:
+Could not open file
+"/home/plai/.matlab/local_cluster_jobs/R2023a/Job22.in.mat", the error returned
+was: Unable to find file or directory
+'/home/plai/.matlab/local_cluster_jobs/R2023a/Job22.in.mat'...] 
+[> In parallel.internal.cluster.CJSJobMethods.destroyOneJob (line 79)
+In parallel.job.CJSConcurrentJob>@(job)CJSJobMethods.destroyOneJob(job.Parent,job,job.Support,job.SupportID) (line 52)
+In parallel.job/CJSConcurrentJob/destroyJob (line 52)
+In parallel.Job>iDeleteJobs (line 1634)
+In parallel.internal.cluster.hetfun (line 57)
+In parallel/Job/delete (line 1429)
+In parallel/Cluster/hDeleteOneJob (line 1105)
+In parallel.internal.pool.AbstractInteractiveClient>iDeleteJobs (line 497)
+In parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (line 218)
+In parallel.internal.pool/AbstractInteractiveClient/start (line 104)
+In parallel.internal.pool.AbstractClusterPool>iStartClient (line 874)
+In parallel.internal.pool.AbstractClusterPool.hBuildPool (line 636)
+In parallel.internal.pool.doParpool (line 22)
+In parpool (line 118)
+In m0_create_meshmodel (line 155)
+In run (line 91)
+In create_BEM_model (line 52)] 
+[Warning: The Cluster reported an error while destroying a job. The error was:
+Could not open file
+"/home/plai/.matlab/local_cluster_jobs/R2023a/Job23.in.mat", the error returned
+was: Unable to find file or directory
+'/home/plai/.matlab/local_cluster_jobs/R2023a/Job23.in.mat'...] 
+[> In parallel.internal.cluster.CJSJobMethods.destroyOneJob (line 79)
+In parallel.job.CJSConcurrentJob>@(job)CJSJobMethods.destroyOneJob(job.Parent,job,job.Support,job.SupportID) (line 52)
+In parallel.job/CJSConcurrentJob/destroyJob (line 52)
+In parallel.Job>iDeleteJobs (line 1634)
+In parallel.internal.cluster.hetfun (line 57)
+In parallel/Job/delete (line 1429)
+In parallel/Cluster/hDeleteOneJob (line 1105)
+In parallel.internal.pool.AbstractInteractiveClient>iDeleteJobs (line 497)
+In parallel.internal.pool/AbstractInteractiveClient/pRemoveOldJobs (line 218)
+In parallel.internal.pool/AbstractInteractiveClient/start (line 104)
+In parallel.internal.pool.AbstractClusterPool>iStartClient (line 874)
+In parallel.internal.pool.AbstractClusterPool.hBuildPool (line 636)
+In parallel.internal.pool.doParpool (line 22)
+In parpool (line 118)
+In m0_create_meshmodel (line 155)
+In run (line 91)
+In create_BEM_model (line 52)] 
+Connected to parallel pool with 12 workers.
+
+Started parallel pool in 24.6341 s
+
+Integral evaluation time = 8.9161 s
+
+Correction matrix construction time = 2.9977 s
+
+Integral evaluation time = 25.1781 s
+
+Correction matrix construction time = 0.59113 s
+
+SaveBigDataTime =
+
+   10.5463
+
+BEM-FMM model created!
+Finished processing 124422! The total elapsed time is: 1.061205e+01
+Processing patient 124422
+Processing directory: 124422
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 124422_skin_headreco.stl : 0.430 : FreeSpace
+>Skull : 124422_bone_headreco.stl : 0.010 : Skin
+>CSF : 124422_csf_headreco.stl : 1.790 : Skull
+>GM : 124422_gm_headreco.stl : 0.330 : CSF
+>WM : 124422_wm_headreco.stl : 0.140 : GM
+>Eyes : 124422_eyes_headreco.stl : 1.790 : Skin
+>Ventricles : 124422_ventricles_headreco.stl : 1.790 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/124422/mesh_data/124422_skin_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_bone_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_csf_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_gm_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_wm_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_eyes_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_ventricles_headreco.stl]
+
+LoadBaseDataTime =
+
+    1.4545
+
+
+SurfaceNormalTime =
+
+    2.2690
+
+
+InitialConductivityAssignmentTime =
+
+    0.0334
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.3981
+
+
+ProcessBaseDataTime =
+
+    6.1833
+
+
+Integral evaluation time = 7.8854 s
+
+Correction matrix construction time = 3.0615 s
+
+Integral evaluation time = 23.7962 s
+
+Correction matrix construction time = 0.65598 s
+
+SaveBigDataTime =
+
+   10.4786
+
+BEM-FMM model created!
+Finished processing 124422! The total elapsed time is: 1.049656e+01
+Processing patient 124422
+Processing directory: 124422
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 124422_skin_headreco.stl : 0.430 : FreeSpace
+>Skull : 124422_bone_headreco.stl : 0.010 : Skin
+>CSF : 124422_csf_headreco.stl : 1.790 : Skull
+>GM : 124422_gm_headreco.stl : 0.330 : CSF
+>WM : 124422_wm_headreco.stl : 0.140 : GM
+>Eyes : 124422_eyes_headreco.stl : 1.790 : Skin
+>Ventricles : 124422_ventricles_headreco.stl : 1.790 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/124422/mesh_data/124422_skin_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_bone_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_csf_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_gm_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_wm_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_eyes_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_ventricles_headreco.stl]
+
+LoadBaseDataTime =
+
+    1.4024
+
+
+SurfaceNormalTime =
+
+    2.2762
+
+
+InitialConductivityAssignmentTime =
+
+    0.0282
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.3662
+
+
+ProcessBaseDataTime =
+
+    6.1061
+
+
+Integral evaluation time = 7.9196 s
+
+Correction matrix construction time = 2.9818 s
+
+Integral evaluation time = 23.8305 s
+
+Correction matrix construction time = 0.54318 s
+
+SaveBigDataTime =
+
+   10.4613
+
+BEM-FMM model created!
+Finished processing 124422! The total elapsed time is: 1.047518e+01
+Processing patient 124422
+Processing directory: 124422
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In create_BEM_model (line 46)] 
+>Skin : 124422_skin_headreco.stl : 0.430 : FreeSpace
+>Skull : 124422_bone_headreco.stl : 0.010 : Skin
+>CSF : 124422_csf_headreco.stl : 1.790 : Skull
+>GM : 124422_gm_headreco.stl : 0.330 : CSF
+>WM : 124422_wm_headreco.stl : 0.140 : GM
+>Eyes : 124422_eyes_headreco.stl : 1.790 : Skin
+>Ventricles : 124422_ventricles_headreco.stl : 1.790 : WM
+Creating BEM-FMM model..
+Successfully loaded file [../data/patients/124422/mesh_data/124422_skin_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_bone_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_csf_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_gm_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_wm_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_eyes_headreco.stl]
+Successfully loaded file [../data/patients/124422/mesh_data/124422_ventricles_headreco.stl]
+
+LoadBaseDataTime =
+
+    1.3569
+
+
+SurfaceNormalTime =
+
+    2.2310
+
+
+InitialConductivityAssignmentTime =
+
+    0.0224
+
+Checking combined mesh for duplicate facets ...
+  Evaluating nearest neighbors ...
+  Evaluating coincident facets ...
+  Found 0 duplicate facets
+  Resolving duplicate facets ...
+Resolved all duplicate facets
+
+DuplicateFacetTime =
+
+    1.3245
+
+
+ProcessBaseDataTime =
+
+    5.9659
+
+
+Integral evaluation time = 7.7927 s
+
+Correction matrix construction time = 3.0111 s
+
+Integral evaluation time = 23.8098 s
+
+Correction matrix construction time = 0.54227 s
+
+SaveBigDataTime =
+
+   10.5142
+
+BEM-FMM model created!
+Finished processing 124422! The total elapsed time is: 1.052908e+01
+Parallel pool using the 'Processes' profile is shutting down.

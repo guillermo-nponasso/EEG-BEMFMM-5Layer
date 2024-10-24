@@ -1,0 +1,124 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+patno =
+
+    '117122'
+
+
+model =
+
+    'german7_refined'
+
+
+inverse_model =
+
+    'german3'
+
+Processing dipole dip2.txt..
+Processing patient 117122
+Processing directory: 117122
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In volumetric_pat1 (line 24)] 
+>Skin : 117122_skin.stl : 0.430 : FreeSpace
+>Skull : 117122_skull.stl : 0.010 : Skin
+>CSF : 117122_csf_refined.stl : 1.790 : Skull
+>GM : 117122_gm_refined.stl : 0.330 : CSF
+>WM : 117122_wm_refined.stl : 0.140 : GM
+>Cerebellum : 117122_cerebellum.stl : 0.216 : CSF
+>Ventricles : 117122_ventricles.stl : 1.790 : WM
+Loading BEM-FMM model..
+
+LoadTime =
+
+   18.9465
+
+BEM-FMM model created!
+Placing source dipole..
+Processing dipole position ../data/patients/117122/dipoles/dip2.txt..
+The dipole is located in the position: (-2.792000e-02, 1.400000e-03, 5.235000e-02) (m)
+Done!
+RUNNING FORWARD ADAPTATIVE SOLUTION.. Please wait
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2b_forward_simulation/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In f5_define_vol_planes (line 2)
+In run (line 91)
+In volumetric_pat1 (line 47)] 
+
+plot_entire_head =
+
+  logical
+
+   1
+
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2b_forward_simulation/../engines/Colormaps] 
+[> In path (line 109)
+In addpath (line 86)
+In f6_volume_plots_XY (line 9)
+In run (line 91)
+In volumetric_pat1 (line 48)] 
+
+fieldPlaneTime =
+
+   17.3816
+
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2b_forward_simulation/../engines/Colormaps] 
+[> In path (line 109)
+In addpath (line 86)
+In f6_volume_plots_XZ (line 7)
+In run (line 91)
+In volumetric_pat1 (line 49)] 
+
+fieldPlaneTime =
+
+   18.6132
+
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2b_forward_simulation/../engines/Colormaps] 
+[> In path (line 109)
+In addpath (line 86)
+In f6_volume_plots_YZ (line 8)
+In run (line 91)
+In volumetric_pat1 (line 50)] 
+
+fieldPlaneTime =
+
+   17.3723
+
+FINISHED FORWARD SOLUTION!
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating

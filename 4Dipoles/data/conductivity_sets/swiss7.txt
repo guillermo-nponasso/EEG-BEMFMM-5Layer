@@ -1,0 +1,11 @@
+% ITIS SWISS Conductivity values
+% See https://itis.swiss/virtual-population/tissue-properties/database/low-frequency-conductivity/
+
+> Skin : skin : 0.147 : FreeSpace
+> Skull : skull : 0.0179 : Skin
+> CSF : csf : 1.88 : Skull
+> GM : gm : 0.419 : CSF
+> WM : wm : 0.348 : GM
+> Cerebellum : cerebellum : 0.577 : CSF
+> Ventricles : ventricles : 1.88 : WM
+

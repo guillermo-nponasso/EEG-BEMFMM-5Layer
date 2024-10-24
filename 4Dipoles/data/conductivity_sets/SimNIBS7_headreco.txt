@@ -1,0 +1,7 @@
+> Skin : skin_headreco : 0.4650 : FreeSpace
+> Skull : bone_headreco : 0.010 : Skin
+> CSF : csf_headreco : 1.654 : Skull
+> GM : gm_headreco : 0.2750 : CSF
+> WM : wm_headreco : 0.1260 : GM
+> Eyes: eyes_headreco: 1.654 : Skin
+> Ventricles : ventricles_headreco : 1.654 : WM

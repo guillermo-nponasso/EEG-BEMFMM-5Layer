@@ -1,0 +1,8 @@
+% ITIS SWISS Conductivity values
+% See https://itis.swiss/virtual-population/tissue-properties/database/low-frequency-conductivity/
+% Note: The value of Brain conductivity was provided by Prof. Makaroff.
+
+>Skin  : skin_remesh  : 0.4650 : FreeSpace
+>Skull : skull_remesh : 0.010  : Skin
+>Brain : csf_remesh   : 0.3300  : Skull
+

@@ -1,0 +1,433 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023a Update 5 (9.14.0.2337262) 64-bit (glnxa64)
+                               July 24, 2023
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+patno =
+
+    '117122'
+
+
+model =
+
+    'german7_refined'
+
+
+inverse_model =
+
+    'german3'
+
+Processing dipole dip4.txt..
+Processing patient 117122
+Processing directory: 117122
+[Warning: This model folder existed previously! Make sure that the data is
+saved. Proceeding anyway..] 
+[> In s1_parameter_selection (line 27)
+In run (line 91)
+In volumetric_pat1 (line 24)] 
+>Skin : 117122_skin.stl : 0.430 : FreeSpace
+>Skull : 117122_skull.stl : 0.010 : Skin
+>CSF : 117122_csf_refined.stl : 1.790 : Skull
+>GM : 117122_gm_refined.stl : 0.330 : CSF
+>WM : 117122_wm_refined.stl : 0.140 : GM
+>Cerebellum : 117122_cerebellum.stl : 0.216 : CSF
+>Ventricles : 117122_ventricles.stl : 1.790 : WM
+Loading BEM-FMM model..
+
+LoadTime =
+
+   18.9175
+
+BEM-FMM model created!
+Placing source dipole..
+Processing dipole position ../data/patients/117122/dipoles/dip4.txt..
+The dipole is located in the position: (-2.916000e-02, 2.100000e-04, -3.970000e-02) (m)
+Done!
+RUNNING FORWARD ADAPTATIVE SOLUTION.. Please wait
+Calculating incident field..
+More than 3-shells present. Using global Gauss selective..
+
+IncFieldTime =
+
+   14.0789
+
+Success!
+iter=1, relres=3.931e-02, locres=2.454e-01, time=44.4345
+iter=2, relres=1.474e-02, locres=9.198e-02, time=66.579
+iter=3, relres=5.405e-03, locres=3.374e-02, time=88.8391
+iter=4, relres=2.362e-03, locres=1.474e-02, time=111.041
+iter=5, relres=1.116e-03, locres=6.968e-03, time=133.428
+iter=6, relres=5.877e-04, locres=3.669e-03, time=156.817
+iter=7, relres=3.923e-04, locres=2.449e-03, time=179.297
+iter=8, relres=3.272e-04, locres=2.043e-03, time=201.687
+iter=9, relres=2.720e-04, locres=1.698e-03, time=224.311
+iter=10, relres=2.258e-04, locres=1.409e-03, time=246.985
+iter=11, relres=1.709e-04, locres=1.067e-03, time=269.355
+iter=12, relres=1.287e-04, locres=8.031e-04, time=291.653
+iter=13, relres=9.681e-05, locres=6.043e-04, time=313.836
+iter=14, relres=8.170e-05, locres=5.100e-04, time=336.105
+iter=15, relres=6.816e-05, locres=4.254e-04, time=358.327
+iter=16, relres=5.649e-05, locres=3.526e-04, time=380.679
+iter=17, relres=4.126e-05, locres=2.576e-04, time=403.092
+iter=18, relres=3.072e-05, locres=1.917e-04, time=425.529
+iter=19, relres=2.378e-05, locres=1.484e-04, time=448.309
+iter=20, relres=1.967e-05, locres=1.228e-04, time=471.498
+iter=21, relres=1.419e-05, locres=8.860e-05, time=494.211
+iter=22, relres=1.065e-05, locres=6.645e-05, time=516.834
+iter=23, relres=8.175e-06, locres=5.103e-05, time=540.055
+
+conservation_law_error =
+
+  -5.4474e-04
+
+Elapsed time is 21.983395 seconds.
+Starting parallel pool (parpool) using the 'Processes' profile ...
+Preserving jobs with IDs: 377 because they contain crash dump files.
+You can use 'delete(myCluster.Jobs)' to remove all jobs created with profile Processes. To create 'myCluster' use 'myCluster = parcluster('Processes')'.
+Connected to parallel pool with 20 workers.
+
+Started parallel pool in 25.4361 s
+Starting adaptive pass 1
+More than 3-shells present. Using global Gauss selective..
+
+MeshAdaptTime =
+
+   38.3761
+
+    EnTime: 31.4840
+     Ptime: 4.2869
+
+
+MeshNeighborTime =
+
+    5.6464
+
+iter=1, relres=1.060e-03, locres=1.316e-02, time=46.9025
+iter=2, relres=1.513e-04, locres=1.878e-03, time=70.5086
+iter=3, relres=9.184e-05, locres=1.140e-03, time=93.9349
+iter=4, relres=6.404e-05, locres=7.951e-04, time=117.36
+iter=5, relres=4.777e-05, locres=5.931e-04, time=140.819
+iter=6, relres=4.112e-05, locres=5.105e-04, time=164.092
+iter=7, relres=3.449e-05, locres=4.282e-04, time=187.322
+iter=8, relres=2.772e-05, locres=3.441e-04, time=210.88
+iter=9, relres=2.001e-05, locres=2.484e-04, time=234.661
+iter=10, relres=1.420e-05, locres=1.763e-04, time=258.177
+iter=11, relres=1.176e-05, locres=1.460e-04, time=281.804
+iter=12, relres=9.799e-06, locres=1.217e-04, time=305.602
+Elapsed time is 22.805347 seconds.
+        Facets: 8011942
+    percentage: [0 16.7303 17.9134 0.3568 0.5821 12.1444 5.2719]
+        ErrorC: 0.0781
+        ErrorV: 0.1202
+           Its: 12
+          VAll: {[256x1 double]}
+       PTotAll: {[8252287x1 double]}
+          cAll: {[8252287x1 double]}
+
+Starting adaptive pass 2
+More than 3-shells present. Using global Gauss selective..
+
+MeshAdaptTime =
+
+   40.6993
+
+    EnTime: 32.0727
+     Ptime: 3.6525
+
+
+MeshNeighborTime =
+
+    5.1245
+
+iter=1, relres=4.370e-04, locres=1.028e-02, time=48.3965
+iter=2, relres=6.075e-05, locres=1.430e-03, time=72.5841
+iter=3, relres=1.654e-05, locres=3.892e-04, time=96.9598
+iter=4, relres=1.010e-05, locres=2.377e-04, time=120.99
+iter=5, relres=7.630e-06, locres=1.795e-04, time=145.473
+Elapsed time is 23.507385 seconds.
+        Facets: [8011942 8252287]
+    percentage: [2x7 double]
+        ErrorC: [0.0781 0.0410]
+        ErrorV: [0.1202 0.0055]
+           Its: [12 5]
+          VAll: {[256x1 double]  [256x1 double]}
+       PTotAll: {[8252287x1 double]  [8499835x1 double]}
+          cAll: {[8252287x1 double]  [8499835x1 double]}
+
+Terminating because target error threshold was reached
+
+meshFullSubdivTime =
+
+  105.1530
+
+    EnTime: 127.0326
+     Ptime: 12.2754
+
+
+MeshNeighborTime =
+
+   17.9995
+
+iter=1, relres=2.099e-04, locres=9.087e-03, time=233.918
+iter=2, relres=3.785e-05, locres=1.639e-03, time=351.435
+iter=3, relres=1.661e-05, locres=7.192e-04, time=467.933
+iter=4, relres=1.148e-05, locres=4.971e-04, time=584.428
+iter=5, relres=8.472e-06, locres=3.669e-04, time=701.94
+Elapsed time is 114.889983 seconds.
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2b_forward_simulation/../engines/graphics] 
+[> In path (line 109)
+In addpath (line 86)
+In f5_define_vol_planes (line 2)
+In run (line 91)
+In volumetric_pat1 (line 47)] 
+
+plot_entire_head =
+
+  logical
+
+   1
+
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2b_forward_simulation/../engines/Colormaps] 
+[> In path (line 109)
+In addpath (line 86)
+In f6_volume_plots_XY (line 9)
+In run (line 91)
+In volumetric_pat1 (line 48)] 
+
+fieldPlaneTime =
+
+   14.2049
+
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2b_forward_simulation/../engines/Colormaps] 
+[> In path (line 109)
+In addpath (line 86)
+In f6_volume_plots_XZ (line 7)
+In run (line 91)
+In volumetric_pat1 (line 49)] 
+
+fieldPlaneTime =
+
+   15.5784
+
+[Warning: Name is nonexistent or not a directory:
+/home/gcnunez/eeg_dipolefitting/2b_forward_simulation/../engines/Colormaps] 
+[> In path (line 109)
+In addpath (line 86)
+In f6_volume_plots_YZ (line 8)
+In run (line 91)
+In volumetric_pat1 (line 50)] 
+
+fieldPlaneTime =
+
+   13.9055
+
+FINISHED FORWARD SOLUTION!
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+ Reallocating
+Parallel pool using the 'Processes' profile is shutting down.

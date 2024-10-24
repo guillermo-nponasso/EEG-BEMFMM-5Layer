@@ -1,0 +1,2 @@
+Patient,Model,Dipole,Dist_mm,Angle_deg,Moment,Str_RE,Residual_Variance,Is_Grid,Grid_eq_Source,Total_AMR_steps
+138534,SimNIBS7,dip3,2.19084828787252,20.3105727657749,1.82206867095592e-09,0.54448283226102,0.000745111461272758,0,1,8
